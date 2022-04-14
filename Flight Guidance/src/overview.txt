@@ -1,0 +1,38 @@
+directed graph
+14110 vertices (airports)
+67663 (with replicates) edges (routes)
+
+Shortest path
+a lot of insertVertex
+a lot of insertEdge
+no need to removeVertex or removeEdge
+need to call incidentEdges and areAdjacent
+Edge weight: initialized as 11 - # routes between same airports (weight >= 1)
+
+Implementation
+shouldn't use adjacent matrix, as space complexity (n^2) would be huge!
+Adjacency list (space complexity n + m)
+
+
+*
+airports.dat
+641, comma removed from airport name "Harstad/Narvik Airport, Evenes"
+657 16
+658 16
+663 16
+664 16
+3256 16
+3340 16
+3443 16
+3603 16
+4345 16
+4351 16
+5562 16
+5582 16
+5583 16
+5589 16
+5674 16
+5675 16
+5881 16
+6898 16
+13714 16
